@@ -15,6 +15,10 @@ header.flex{
 }
 .btn1{
     background-color: #F84646;
+    width: 91px;
+    height: 40px;
+    color: #ffffff;
+    border: 0px solid #ffffff;
 
 }
 header ul{
@@ -27,6 +31,7 @@ body{
 }
 body p{
     font-size: 20px;
+    width: 660px;
 }
 header a{
     color: #000000;
@@ -35,4 +40,14 @@ main h3{
     font-weight: bold;
     font-size: 64px;
     width: 660px;
+}
+.inputt{
+width: 502px;
+height: 73px;
+}
+.btn2{
+    background-color: #F84646;
+    color: #ffffff;
+    width: 136px;
+    height: 61px;
 }
