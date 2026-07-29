@@ -1,9 +1,16 @@
+@font-face {
+    font-family:manrope;
+    src: url(../fonts/Manrope-Regular.ttf);
+}
+
+
 *{
 margin: 0;
 padding: 0;
 list-style-type: none;
 text-decoration: none;
 box-sizing: border-box;
+font-family:manrope;
 } 
 .flex{
     display: flex;
@@ -12,6 +19,7 @@ box-sizing: border-box;
 }
 header.flex{
     justify-content: flex-end;
+    padding: 35px  122px;
 }
 .btn1{
     background-color: #F84646;
@@ -36,18 +44,91 @@ body p{
 header a{
     color: #000000;
 }
-main h3{
+.index h3{
     font-weight: bold;
     font-size: 64px;
     width: 660px;
 }
 .inputt{
-width: 502px;
+width: 360px;
 height: 73px;
+border: #ffffff solid 0px;
+outline: none;
 }
 .btn2{
     background-color: #F84646;
     color: #ffffff;
     width: 136px;
     height: 61px;
+    border: none;
+    border-radius: 8px;
+}
+.section2{
+    background-color: #ffffff;
+    width: 502px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.p1{
+    margin-top: 20px;
+}
+.seqcia{
+padding: 90px 122px;
+}
+.seqcia{
+    margin-top: 268px;
+    text-align: center;
+    resize: both;
+    flex-direction: column;
+    
+}
+.seqcia h3{
+    font-weight: bold;
+    font-size: 36px;
+}
+.seqcia p{
+    margin-top: 30px;
+
+}
+.artikli{
+    display: flex;
+    text-align: center;
+    margin-top: 63px;
+    flex-wrap: wrap;
+    gap: 116px;
+}
+.artikli h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.artikli p{
+    font-size: 18px;
+    width: 298px;
+}
+.yuti{
+    width: 100%;
+    height: 376px;
+    background-color: #F84646;
+    text-align: center;
+    padding-top: 68px;
+}
+.yuti h3{
+    color: #ffffff;
+    font-size: 36px;
+    width: 100%;
+    
+}
+.yuti p{
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 8px;
+}
+.teqstipoto{
+    display: flex;
+    margin: 64px auto;
+    height: 64px;
+    width: 1088px;
+    align-items: center;
+    gap: 45px;
 }
